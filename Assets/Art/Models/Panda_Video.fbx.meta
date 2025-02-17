@@ -1,9 +1,39 @@
 fileFormatVersion: 2
-guid: 89d944c3632935c42954c6e80eb6ce72
+guid: 23dc0d2048082492280da5d8e0ec429e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BSurfaceMesh.001
+    second: {fileID: 2100000, guid: 07cdf178170bd4fbc984294ce06b989c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: bd5e8d56eaf3a4393b634b3f7e7aac85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PM3D_Sphere3D1_2.001
+    second: {fileID: 2100000, guid: eb65af76d0d0b43dc946fcd47c7b07e9, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: -color
+    second: {fileID: 2800000, guid: d35cb3c71de9e422887bb2cfa0b6f00e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: -metallic
+    second: {fileID: 2800000, guid: 1fcac5c2804294635a33de5bdad7b4d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: -roughness
+    second: {fileID: 2800000, guid: e41bfcefbfdc141ce9906e01cc44f539, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -41,8 +71,8 @@ ModelImporter:
     importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
